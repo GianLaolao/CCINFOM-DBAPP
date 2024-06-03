@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <style>
+            input[type=number] {
+                    -moz-appearance: textfield;
+                }
+        </style>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>View Homeowner Record</title>
+    </head>
+    <body>
+        <h1>View Homeowner Record</h1><br>
+        <form action="view_ho_processing.jsp">
+            Enter Homeowner ID:&nbsp;<input type="number" id="homeowner" name="homeowner" required><br><br>
+            <input type="submit" value="Submit"><br>
+        </form>
+        <button onclick="location.href='ho_index.html'" type="button"> Cancel </button>
+    </body>
+</html>
